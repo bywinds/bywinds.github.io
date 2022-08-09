@@ -1,43 +1,4 @@
-ssh-keygen -t rsa
-/root/.ssh/id_rsa
-git clone https://github.com/bywinds/qhmorn.git
-git status
-git add
-git commit -m ""
-git config --global user.email "bywinds@126.com"
-git config --global user.name "bywinds"
-git log
-git branch
-git push origin main
-git init
-
-git remote set-url origin https://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@github.com/bywinds/qhmorn.git
-
-
-git push origin master
-
-
-345678
-12345678
-==========================
-------------------------------
-
-
-  ###############################                           
-  #          直播公告                             
-  #   软件工程师未来发展前景如何？   
-  #   软件工程师有哪些就业选择？     
-  #   毕业生如何规划职业道路？      
-  #   遍地开花的培训班靠谱吗？     
-  #   程序员如何不断学习提升自己？   
-  #   面试求职时如何让人眼前一亮？ 
-  ###############################
-
-
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC26LrwFQzaCT76Tkv6t/YT5YGdLHpexliGYEGPdmje2dr4HkONJXQ48A5rw2rLRBDIjMk/+yB1vU2lZ7IaCts+IgVwsjRtkCrwwEwhdeq7EP43S9EvkjuKbDacyxafLyaiGyxx9MdDOmExZ01i/0brIdHN70mI2/lP/mykwtzprWDUDYwdg5F8stmlJ+VYJweA5acWDdSOLcpKu2f0Rdp9iFXC1Ll5JtIbq+GR9ssh6A22unnXd0J0mseC5u9Ny2wHrjP1vz0vIhBLawdLAhusA3SY63lup2chkvAeseJYvwF5CUUS9kqw+z5sk2DlB7PrUB1YJS0/PWZoksKfzzykk102/zAOSOhlcwDjYmI4EGGATmHoEDUquGOF1TM6UOjKFzf1LBIrrdA0B+toerMTEB+1+A8cBKgSAqhS6b3BFwQdrLg0uZvrFp901X1wzX5F3NmaL4vj5lJnEklloLlQQWqBgEGQ7NnKbx4wR8o5uCNl2+L8APSGQ/57ozG4Xwc= root@kali
-
-
-
+123
 
 
 
