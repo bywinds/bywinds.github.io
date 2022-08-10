@@ -23,7 +23,7 @@ Preview
 ![Xixia](https://bywinds.github.io/assets/images/xixia.gif)
 
 License
-=======
+=======888
 
 The content of this theme is distributed and licensed under a
 ![License Badge](assets/images/cc_by_88x31.png)
