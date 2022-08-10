@@ -20,6 +20,8 @@ Preview
 =======
 ![Xixia](/assets/images/preview.png)
 
+![Xixia](https://bywinds.github.io/assets/images/xixia.gif)
+
 License
 =======
 
