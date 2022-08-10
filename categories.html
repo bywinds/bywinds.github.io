@@ -3,9 +3,23 @@ layout: default
 ---
 
 <div class="well article">
+{% assign trans = site.data.values[site.lan] %}
 {% assign sortedcategories = site.categories | sort %}
 {% for category in sortedcategories %}
-    <h2>{{ category[0] | capitalize }}</h2>
+    <h2>
+        {% if category[0] == 'skill' %}
+        {{ trans.skill }}
+        {% endif %}
+        {% if category[0] == 'program' %}
+        {{ trans.program }}
+        {% endif %}
+        {% if category[0] == 'movies' %}
+        {{ trans.movies }}
+        {% endif %}
+        {% if category[0] == 'game' %}
+        {{ trans.game }}
+        {% endif %}
+    </h2>
     <ul>
         {% assign pages_list = category[1] %}
         {% for node in pages_list %}

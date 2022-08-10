@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="well">
-    <h1>About me</h1>
-    <p>Hello, I am me.</p>
+    {% assign trans = site.data.values[site.lan] %}
+    <h1>{{ trans.qhmorn }}</h1>
+    <p>{{ trans.welcome }}</p>
 </div>

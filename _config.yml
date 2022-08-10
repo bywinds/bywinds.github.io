@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: Xixiayyy
-description: Welcome to Xixia777！
+name: 清辉之晨
+description: 千里之行 始于足下
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://github.com/zxixia/jekyll-xixia
@@ -13,12 +13,12 @@ url: https://github.com/zxixia/jekyll-xixia
 baseurl: ''
 ## default date_format
 date_format: 
-  title: "%B-%-d-%Y"
-  archive: "%b"
-  categories: "%b-%Y"
-  tag: "%b-%Y"
+  title: "%Y年%m月%-d日"
+  archive: "%m月"
+  categories: "%Y年%m月"
+  tag: "%Y年%m月"
 # Language
-lan: "en" 
+lan: "cn" 
 
 paginate: 10
 

@@ -1,12 +1,19 @@
-recent_posts: 最新发表
+recent_posts: 最新文章
 links: 友情链接
 home: 首页
 tags: 标签
-archive: 归档
+archive: 汇总
 categories: 分类
 about: 关于
-thanks: " ， 自豪的采用"
+thanks: " ， 技术博客"
 page: 当前页
 newer_post: 前一篇
 older_post: 后一篇
-top_posts: 置顶文章
+top_posts: 重点关注
+year: 年
+skill: 生活技能
+program: 软件编程
+movies: 影视
+game: 游戏
+qhmorn: 清辉之晨
+welcome: 欢迎您浏览我的博客
