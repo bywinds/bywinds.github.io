@@ -7,17 +7,14 @@ layout: default
 {% assign sortedcategories = site.categories | sort %}
 {% for category in sortedcategories %}
     <h2>
-        {% if category[0] == 'skill' %}
-        {{ trans.skill }}
-        {% endif %}
         {% if category[0] == 'program' %}
         {{ trans.program }}
-        {% endif %}
-        {% if category[0] == 'movies' %}
+        {% elsif category[0] == 'movies' %}
         {{ trans.movies }}
-        {% endif %}
-        {% if category[0] == 'game' %}
+        {% elsif category[0] == 'game' %}
         {{ trans.game }}
+        {% else %}
+        {{ trans.skill }}
         {% endif %}
     </h2>
     <ul>

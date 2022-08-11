@@ -4,7 +4,7 @@ name: 清辉之晨
 description: 千里之行 始于足下
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/zxixia/jekyll-xixia
+url: https://bywinds.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.

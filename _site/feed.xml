@@ -7,9 +7,64 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>数字水印</title>
+				<title>数字水印应用</title>
 				<description>&lt;h1 id=&quot;数字水印技术&quot;&gt;数字水印技术&lt;/h1&gt;
 
+&lt;p&gt;&lt;br /&gt;
+       数字水印可分为浮现式和隐藏式两种，浮现式：包含的信息，在观看图片或视频时同时被看到；隐藏式：信息以数字的方式加入音频、图片或视频中，无法被看见，阻止数字媒体未经授权的拷贝。
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;数字水印程序包含，嵌入器和检测器两个部分。&lt;/p&gt;
+
+&lt;p&gt;嵌入时，需要准备：将嵌入水印的载体作品、原始的水印信息。&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;&lt;br /&gt;&lt;/dt&gt;
+  &lt;dt&gt;检测器有两个操作：&lt;/dt&gt;
+  &lt;dd&gt;       水印检测，它用于判断水印的存在与否&lt;/dd&gt;
+  &lt;dd&gt;       水印提取，它用于从含水印的载体中提取水印信息&lt;/dd&gt;
+  &lt;dt&gt;&lt;br /&gt;&lt;/dt&gt;
+  &lt;dt&gt;空间域嵌入方案&lt;/dt&gt;
+  &lt;dd&gt;&lt;/dd&gt;
+  &lt;dt&gt;&lt;br /&gt;&lt;/dt&gt;
+  &lt;dt&gt;变换域嵌入方案&lt;/dt&gt;
+  &lt;dd&gt;       离散傅立叶变换&lt;/dd&gt;
+  &lt;dd&gt;       离散余弦变换&lt;/dd&gt;
+  &lt;dd&gt;       小波变换：时频局部化特征为分析图像的局部特征提供了很好的定位，容易于人类视觉系统相适应&lt;/dd&gt;
+  &lt;dt&gt;&lt;br /&gt;&lt;/dt&gt;
+  &lt;dt&gt;混沌模型对图像进行变换，得到的图像于原始图像存在视差，从而实现图像加密&lt;/dt&gt;
+  &lt;dd&gt;&lt;/dd&gt;
+  &lt;dt&gt;&lt;br /&gt;&lt;/dt&gt;
+  &lt;dt&gt;基于量子计算理论的图像水印&lt;/dt&gt;
+  &lt;dd&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Steghide&lt;/strong&gt;：将文件隐藏到图片或音频中的工具&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;em&gt;信息写入图片：&lt;/em&gt;
+&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;steghide embed -cf *.jpg -ef *.txt -p 666888&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;检测信息：&lt;/em&gt;
+&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;steghide info *.jpg&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;取出信息：&lt;/em&gt;
+&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;steghide extract -sf *.jpg -p 666888&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;注意：请将 * 替换成实际的文件名&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steghide软件，下载地址：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1xVsRrlZmBOp-ciC5ixIqEQ?pwd=kyvd&quot; target=&quot;_blank&quot; title=&quot;百度网盘&quot;&gt;百度网盘&lt;/a&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 10 Aug 2022 00:00:00 +0800</pubDate>
 				<link>http://localhost:4000/skill/2022/08/10/digitalwatermark.html</link>

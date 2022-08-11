@@ -79,7 +79,7 @@
         
             
                 
-                    <li><a href="/skill/2022/08/10/digitalwatermark.html">数字水印</a></li>
+                    <li><a href="/skill/2022/08/10/digitalwatermark.html">数字水印应用</a></li>
                 
             
         
@@ -91,7 +91,7 @@
     <h1>最新文章</h1>
     <ul>
         
-          <li><a href="/skill/2022/08/10/digitalwatermark.html">数字水印</a></li>
+          <li><a href="/skill/2022/08/10/digitalwatermark.html">数字水印应用</a></li>
         
     </ul>
 </div>
@@ -125,7 +125,7 @@
             <div class="col-md-9">
                 
 <div class="well article">
-        <h2><a href="/skill/2022/08/10/digitalwatermark.html">数字水印</a></h2>
+        <h2><a href="/skill/2022/08/10/digitalwatermark.html">数字水印应用</a></h2>
         <span class="post-date">
             
             2022年08月10日
@@ -135,6 +135,61 @@
     <div class="post-content">
     <h1 id="数字水印技术">数字水印技术</h1>
 
+<p><br />
+       数字水印可分为浮现式和隐藏式两种，浮现式：包含的信息，在观看图片或视频时同时被看到；隐藏式：信息以数字的方式加入音频、图片或视频中，无法被看见，阻止数字媒体未经授权的拷贝。
+<br /></p>
+
+<p>数字水印程序包含，嵌入器和检测器两个部分。</p>
+
+<p>嵌入时，需要准备：将嵌入水印的载体作品、原始的水印信息。</p>
+
+<dl>
+  <dt><br /></dt>
+  <dt>检测器有两个操作：</dt>
+  <dd>       水印检测，它用于判断水印的存在与否</dd>
+  <dd>       水印提取，它用于从含水印的载体中提取水印信息</dd>
+  <dt><br /></dt>
+  <dt>空间域嵌入方案</dt>
+  <dd></dd>
+  <dt><br /></dt>
+  <dt>变换域嵌入方案</dt>
+  <dd>       离散傅立叶变换</dd>
+  <dd>       离散余弦变换</dd>
+  <dd>       小波变换：时频局部化特征为分析图像的局部特征提供了很好的定位，容易于人类视觉系统相适应</dd>
+  <dt><br /></dt>
+  <dt>混沌模型对图像进行变换，得到的图像于原始图像存在视差，从而实现图像加密</dt>
+  <dd></dd>
+  <dt><br /></dt>
+  <dt>基于量子计算理论的图像水印</dt>
+  <dd></dd>
+</dl>
+
+<hr />
+
+<p><strong>Steghide</strong>：将文件隐藏到图片或音频中的工具</p>
+
+<p><br />
+<em>信息写入图片：</em>
+<br />
+<code class="language-plaintext highlighter-rouge">steghide embed -cf *.jpg -ef *.txt -p 666888</code></p>
+
+<p><em>检测信息：</em>
+<br />
+<code class="language-plaintext highlighter-rouge">steghide info *.jpg</code></p>
+
+<p><em>取出信息：</em>
+<br />
+<code class="language-plaintext highlighter-rouge">steghide extract -sf *.jpg -p 666888</code></p>
+
+<p><strong><em>注意：请将 * 替换成实际的文件名</em></strong></p>
+
+<hr />
+
+<p><br /></p>
+
+<p><strong>Steghide软件，下载地址：</strong></p>
+
+<p><a href="https://pan.baidu.com/s/1xVsRrlZmBOp-ciC5ixIqEQ?pwd=kyvd" target="_blank" title="百度网盘">百度网盘</a></p>
 
     <hr style="border-top:1px solid #28323C;"/>
 
@@ -146,7 +201,13 @@
       
          
             <li class="icon-style"><a href="/categories.html">
-                skill <span>(1)</span>
+                
+                    
+                    生活技能
+                    
+                    
+                
+                <span>(1)</span>
                 
             </a></li>
         

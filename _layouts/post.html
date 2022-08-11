@@ -28,14 +28,38 @@ layout: default
       {% if categories_list.first[0] == null %}
         {% for category in categories_list %} 
             <li class="icon-style"><a href="{{ site.baseurl }}/categories.html">
-                {{ category | join: "/" }} <span>({{ site.categories[category].size }})</span>
+                {% for item in category %}
+                    {% if item == 'program' %}
+                    {{ trans.program }}
+                    {% elsif item == 'movies' %}
+                    {{ trans.movies }}
+                    {% elsif item == 'game' %}
+                    {{ trans.game }}
+                    {% else %}
+                    {{ trans.skill }}
+                    {% endif %}
+                    {% unless forloop.last %}/{% endunless %}
+                {% endfor %}
+                <span>({{ site.categories[category].size }})</span>
                 {% unless forloop.last %},{% endunless %}
             </a></li>
         {% endfor %}
       {% else %}
         {% for category in categories_list %} 
             <li class="icon-style"><a href="{{ site.baseurl }}/categories.html">
-                {{ category[0] | join: "/" }} <span>/{{ category[1].size }})</span>
+                {% for item in category[0] %}
+                    {% if item == 'program' %}
+                    {{ trans.program }}
+                    {% elsif item == 'movies' %}
+                    {{ trans.movies }}
+                    {% elsif item == 'game' %}
+                    {{ trans.game }}
+                    {% else %}
+                    {{ trans.skill }}
+                    {% endif %}
+                    {% unless forloop.last %}/{% endunless %}
+                {% endfor %}
+                <span>/{{ category[1].size }})</span>
             </a></li>
         {% endfor %}
       {% endif %}
